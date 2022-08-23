@@ -14,6 +14,7 @@ public class SpinPropellerX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Rotate the propeller on the z-axis
         transform.Rotate(0,0,propellerSpeed);
     }
 }
